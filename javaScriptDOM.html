@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible"content="IE=edge">
+  <meta http-equiv="viewport"content="width= <device= width></device>,intial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="etilos.css">
+  </head>
+<body>
+    <script>
+
+function añadir() {
+
+        }
+
+    var ingredientesacomprar = document.createElement("div");
+     ingredientesacomprar.innerHTML=document.getElementById("loquehayqueanadir").value;
+     document.getElementById("lista de la compra").appendChild(ingredienteacomprar);
+}
+
+    </script>
+
+    <input type="text" id="loquehayqueanadir" value="por cosa a comprar">
+    <br>
+    <input type="button" value="anadir" onclick="añadir();">
+    <br><br>
+    <h3>Lista de la compra</h3>
+    <div id="lista de la compra">
+
+    </div>
+</body>
+</html>
